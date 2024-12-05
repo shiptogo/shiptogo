@@ -1,0 +1,79 @@
+/* styles.css */
+
+/* Définir des couleurs principales */
+:root {
+    --blue: #005f73;
+    --green: #94d2bd;
+    --white: #fff;
+    --gray: #f4f4f4;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: var(--gray);
+    color: var(--blue);
+}
+
+header {
+    background-color: var(--blue);
+    padding: 10px;
+}
+
+header nav ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    color: var(--white);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+section {
+    padding: 20px;
+    margin: 20px 0;
+    background-color: var(--white);
+    border-radius: 8px;
+}
+
+h1, h2 {
+    color: var(--blue);
+}
+
+button {
+    background-color: var(--green);
+    color: var(--white);
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #5eaa98;
+}
+
+input[type="text"] {
+    padding: 10px;
+    font-size: 16px;
+    width: 300px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: var(--blue);
+    color: var(--white);
+    text-align: center;
+    padding: 10px 0;
+}
